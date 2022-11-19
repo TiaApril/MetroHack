@@ -5,6 +5,9 @@ function Home() {
   return (
     <>
     <Navbar/>
+    <div>
+      Hello World
+    </div>
     </>
   )
 }
