@@ -8,7 +8,7 @@ function Navbar() {
     <nav className='navbar navbar-expand-lg bg-dark py-3 sticky-top'>
         <div className='container-fluid'>
             <ul className='navbar-nav'>
-                <li className='nav-item me-5 ms-5'>
+                <li className='nav-item me-1 ms-5 mt-4'>
                     <a className='navbar-brand'href="#">
                     <Link to="/">
                         <img src={Logo} height="20px"></img>

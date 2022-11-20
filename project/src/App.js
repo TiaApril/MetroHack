@@ -4,6 +4,7 @@ import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
 import LoginForm from './pages/LoginForm';
 import SignInForm from './pages/SignInForm';
+import Result from './pages/Result';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           </Route>
           <Route exact path='/signinform' element={<SignInForm/>}>
           </Route>
-          {/* <Route exact path='/result' element={<Result/>}></Route> */}
+          <Route exact path='/result' element={<Result/>}></Route>
         </Routes>
       </Router>
       

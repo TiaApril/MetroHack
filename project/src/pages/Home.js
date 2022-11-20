@@ -1,12 +1,14 @@
 import React from 'react'
 import CopyWriting from '../component/CopyWriting'
-import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
+import SwiperTopic from '../component/SwiperTopic'
 
 function Home() {
   return (
     <>
       <CopyWriting/>
-  
+      <SwiperTopic/>
+      <Footer/>
     
     </>
   )
