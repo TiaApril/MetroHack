@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaThumbsUp, FaCommentAlt, FaThumbsDown, FaShareAlt} from "react-icons/fa"
-
+import Man1 from "../images/Man1.svg";
+import Man2 from "../images/Man2.svg";
 
 
 
@@ -13,7 +14,7 @@ function HotTopics() {
             <div className='col-md'>
             <div className='post-container'>
                 <div className='user-profile'>
-                  <img></img>
+                  <img src={Man1}></img>
                   <div>
                     <p>John</p>
                     <span>January 26th, 2022</span>
@@ -41,7 +42,7 @@ function HotTopics() {
             <div className='col-md'>
               <div className='post-container'>
                 <div className='user-profile'>
-                  <img></img>
+                  <img src={Man2}></img>
                   <div>
                     <p>John</p>
                     <span>January 26th, 2022</span>
@@ -69,7 +70,7 @@ function HotTopics() {
             <div className='col-md'>
               <div className='post-container'>
                 <div className='user-profile'>
-                  <img></img>
+                  <img src={Man2}></img>
                   <div>
                     <p>John</p>
                     <span>January 26th, 2022</span>
