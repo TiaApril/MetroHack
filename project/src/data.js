@@ -1,3 +1,4 @@
+// have not yet mapping it
 const people = [
     {
       id: 1,
