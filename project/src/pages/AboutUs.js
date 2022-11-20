@@ -11,7 +11,7 @@ export const AboutUs = () => {
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between" >
           <div>
-            <h1 className=" text-bg-dark border rounded-3" style={{marginRight : '75%' }}><span class="text-warning"> WeMath </span></h1>
+            <h1><span class="text-warning text-bg-dark border rounded-3 fluid" style={{marginRight : '100%' }}> WeMath </span></h1>
             <p class="lead my-4">
               Inspire students to share and explore knowledge in a collaborative community.
             </p>
