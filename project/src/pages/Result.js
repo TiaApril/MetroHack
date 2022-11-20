@@ -1,5 +1,6 @@
 import React from 'react'
-import Question from '../component/result/Question'
+
+
 
 function Result() {
   return (
@@ -11,7 +12,7 @@ function Result() {
                     <div className='col-md-auto'>
                         <div className="container d-flex bd-highlight">
                             <div className="container me-5 p-2 w-100 bd-highlight">
-                                <Question/>
+                               
                             </div>
                         </div>
                     </div>
