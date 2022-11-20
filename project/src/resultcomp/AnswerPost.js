@@ -18,9 +18,9 @@ function AnswerPost() {
         <div className="card mb-5" >
                     <div className="card-body text-center">
                       <div className='row'>
-                        <div className='col'>
+                        <div className='col-md '>
                           <div className='result-container'>
-                            <div className='user-profile'>
+                            <div className='user-profile '>
                               <img src={Man1}></img>
                               <div>
                                 <p>John</p>

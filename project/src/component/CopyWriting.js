@@ -18,7 +18,7 @@ function CopyWriting() {
                     <div className='container'>
             
                             <button className='btn btn-primary btn-lg margin-left me-3 '>
-                              <Link to="/loginform" className="nav-link active">Sign In</Link>
+                              <Link to="/signinform" className="nav-link active">Sign In</Link>
                             </button>
                             <button className='btn btn-primary btn-lg margin-right'>
                               <Link to="/loginform" className="nav-link active">Log In</Link>
