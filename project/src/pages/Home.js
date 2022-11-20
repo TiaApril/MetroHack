@@ -6,9 +6,12 @@ import SwiperTopic from '../component/SwiperTopic'
 function Home() {
   return (
     <>
+    <div>
       <CopyWriting/>
       <SwiperTopic/>
       <Footer/>
+    </div>
+      
     
     </>
   )
