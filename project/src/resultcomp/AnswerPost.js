@@ -28,8 +28,11 @@ function AnswerPost() {
                               </div>
                             </div>
                             <p className='post-text border rounded border-1 border-white mt-5'>
-                              <h3 className="mb-4 mt-4">
-                                <span>(2000/100)-(3.000/1.000)+(200/10)=37m</span> 
+                              <h3 className="align-self-start">
+                                <p>20.000cm-3.000 mm+200 dm</p>
+                                  <p>=200 m-3 m+20 m </p>
+                                  <p>=217 m</p>
+                                <span>=37m</span> 
                               </h3>
                             </p>
                             <Card.Footer>
