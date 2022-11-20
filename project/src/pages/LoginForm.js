@@ -10,7 +10,7 @@ function LoginForm() {
     <div className='login-container'>
       <div className='justify-content-center' >
         
-          <div className='my-auto mx-auto' style={{borderRadius: '2rem',maxHeight:'1000px' ,maxWidth: '1000px', backgroundColor: "#f8f8f8" }}>
+          <div className='mx-auto' style={{borderRadius: '2rem',maxHeight:'600px' ,maxWidth: '600px', backgroundColor: "#f8f8f8" }}>
             <h1 className='ms-5 pt-3 my-auto '>
               <span style={{fontWeight: 'bold'}}>Login</span>
             </h1>

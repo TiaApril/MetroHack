@@ -1,18 +1,19 @@
 
 import React from "react";
+import Footer from "../component/Footer";
+import Showcase2 from "../images/Showcase2.png";
 
 export const AboutUs = () => {
   return (
     <div>
       <section
-      class="bg-primary text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" style={{backgroundColor: '#F67984'}}>
       <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="d-sm-flex align-items-center justify-content-between" >
           <div>
-            <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+            <h1><span class="text-warning"> WeMath </span></h1>
             <p class="lead my-4">
-              We focus on teaching our students the fundamentals of the latest
-              and greatest technologies to prepare them for their first dev role
+              Inspire students to share and explore knowledge in a collaborative community.
             </p>
           </div>
           <img
@@ -23,65 +24,25 @@ export const AboutUs = () => {
         </div>
       </div>
     </section>
-      <section className="p-5">
-        <div className="container">
-          <div className="row text-center">
-            <div className="col-md " >
-              <div className="card text-light" style={{backgroundColor: '#F35363'}}>
-                <div className="card-body text-center">
-                  <div className="h1 mb-3">
-                    <i>logo</i>
-                  </div>
-                  <h3 className="card-title">
-                    Vision
-                  </h3>
-                  <p className="card-text">
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md">
-              <div className="card text-light" style={{backgroundColor: '#F35363'}}>
-                <div className="card-body text-center">
-                  <div className="h1 mb-3">
-                    <i>logo</i>
-                  </div>
-                  <h3 className="card-title">
-                    Mision
-                  </h3>
-                  <p className="card-text">
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="KnowUs" className="p-5 text-light" style={{backgroundColor: '#F67984'}} >
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md p-5">
-              <h2>Learn React</h2>
+              <h2>LEND
+                A HAND</h2>
               <p className="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.
+                We’re all in this together.
+
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.
+                We ask for help when we need it and we offer help always
+                We approach everything and everyone with a focus on collaboration
+                We act with the success of the team in mind
+                We all know something we can teach others
               </p>
-              <a href="#" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right"></i> Read More
-              </a>
             </div>
             <div className="col-md">
-              <img class="img-fluid" alt=""></img>
+              <img className='img-fluid' src={Showcase2} alt="showcase"></img>
             </div>
           </div>
         </div>
@@ -90,29 +51,26 @@ export const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md">
-              <img class="img-fluid" alt=""></img>
+              <img className='img-fluid' src={Showcase2} alt="showcase"></img>
             </div>
             <div className="col-md p-5">
-              <h2>Learn React</h2>
+              <h2>STAY CURIOUS</h2>
               <p className="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.
+                
+                Always wonder. Always explore.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Suspendisse ultricies tincidunt purus, in dapibus velit
-                tincidunt in.
+                We approach every question with a sense of wonder, and we do it with humility and respect
+                We talk about what went wrong and freely share lessons learned with others
+                We embrace the unexpected and look for ways to see change as opportunity
+                We challenge the status quo and always seek to better ourselves, our work and our team
+              
               </p>
-              <a href="#" className="btn btn-light mt-3">
-                <i className="bi bi-chevron-right"></i> Read More
-              </a>
             </div>
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
