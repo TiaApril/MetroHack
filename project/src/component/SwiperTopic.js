@@ -2,6 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "bootstrap/dist/css/bootstrap.min.css"
+import Card from "react-bootstrap/Card"
+import Button from 'react-bootstrap/esm/Button';
 
 // import
 import {FaThumbsUp, FaCommentAlt, FaThumbsDown, FaShareAlt} from "react-icons/fa"
@@ -21,6 +23,7 @@ import { Pagination, Navigation } from "swiper";
 function SwiperTopic() {
   return (
     <>
+    
     <section className='p-5'>
       <div className='container'>
         <div className='row g-lg-5'>
@@ -51,6 +54,7 @@ function SwiperTopic() {
                   </div>
                 </div>
                 <p className='post-text'>what is the result for 4 X 6 = </p>
+               
                 <div className='post-row'>
                   <div className='activity-icons'>
                     <div>
@@ -314,10 +318,7 @@ function SwiperTopic() {
         </div>
       </div>
     </section>
-    <div className='container'>
-
     
-    </div>
      
     </>
   )
