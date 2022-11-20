@@ -1,5 +1,6 @@
 import React from 'react'
 import AnswerButton from '../resultcomp/AnswerButton'
+import AnswerPost from '../resultcomp/AnswerPost'
 import Question from '../resultcomp/Question'
 
 
@@ -16,6 +17,7 @@ function Result() {
                             <div className="container me-5 p-2 w-100 bd-highlight">
                                <Question/>
                                <AnswerButton/>
+                               <AnswerPost/>
                             </div>
                         </div>
                     </div>
