@@ -7,11 +7,11 @@ export const AboutUs = () => {
   return (
     <div>
       <section
-      class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" style={{backgroundColor: '#F67984'}}>
+      class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start border border-5" style={{backgroundColor: '#F67984'}}>
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between" >
           <div>
-            <h1><span class="text-warning"> WeMath </span></h1>
+            <h1 className=" text-bg-dark border rounded-3" style={{marginRight : '75%' }}><span class="text-warning"> WeMath </span></h1>
             <p class="lead my-4">
               Inspire students to share and explore knowledge in a collaborative community.
             </p>
@@ -24,7 +24,7 @@ export const AboutUs = () => {
         </div>
       </div>
     </section>
-      <section id="KnowUs" className="p-5 text-light" style={{backgroundColor: '#F67984'}} >
+      <section id="KnowUs" className="p-5 text-light border border-5" style={{backgroundColor: '#F67984'}} >
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md p-5">
@@ -47,7 +47,7 @@ export const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section id="KnowUs2" className="p-5 text-light" style={{backgroundColor: '#F67984'}} >
+      <section id="KnowUs2" className="p-5 text-light border border-5" style={{backgroundColor: '#F67984'}} >
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-md">

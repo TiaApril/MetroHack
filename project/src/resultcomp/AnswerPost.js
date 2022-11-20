@@ -34,7 +34,7 @@ function AnswerPost() {
                             </p>
                             <Card.Footer>
                             <small className="text-muted">
-                            <div className='activity-icons align-left'>
+                            <div className='search-result-icons align-left'>
                                 <div>
                                 <FaThumbsUp className='img'/> 100
                                 </div>
@@ -161,7 +161,7 @@ function AnswerPost() {
                             </p>
                             <Card.Footer>
                             <small className="text-muted">
-                            <div className='activity-icons align-left'>
+                            <div className='search-result-icons align-left'>
                                 <div>
                                 <FaThumbsUp className='img'/> 100
                                 </div>
