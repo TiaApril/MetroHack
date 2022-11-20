@@ -1,6 +1,7 @@
 import React from 'react'
 import AnswerButton from '../resultcomp/AnswerButton'
 import AnswerPost from '../resultcomp/AnswerPost'
+import HotTopicSide from '../resultcomp/HotTopicSide'
 import Question from '../resultcomp/Question'
 import RelatedTopics from '../resultcomp/RelatedTopics'
 
@@ -21,6 +22,7 @@ function Result() {
                                <AnswerPost/>
                                <RelatedTopics/>
                             </div>
+                            <HotTopicSide/>
                         </div>
                     </div>
                 </div>

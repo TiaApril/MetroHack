@@ -1,4 +1,10 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import {FaThumbsUp, FaCommentAlt, FaThumbsDown, FaShareAlt, FaPlus} from "react-icons/fa"
+import { Pagination as Page, Navigation } from "swiper";
+import Man1 from "../images/Man1.svg";
+import Man2 from "../images/Man2.svg";
+import Woman1 from "../images/Woman1.svg";
 
 function RelatedTopics() {
   return (
