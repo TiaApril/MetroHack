@@ -1,27 +1,24 @@
 import React from 'react'
-import Logo from "../images/Logo.svg";
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Link } from "react-router-dom"
-import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
+import Logo from "../images/Logo.svg"
+import {FaHome} from "react-icons/fa"
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark py-3 sticky-top">
-        <div className="container-fluid">
+    <nav className='navbar navbar-expand-lg bg-dark py-3 sticky-top'>
+        <div className='container-fluid'>
             <ul className='navbar-nav'>
                 <li className='nav-item me-5 ms-5'>
-                    <a className="navbar-brand" href="#">
+                    <a className='navbar-brand'href="#">
                     <Link to="/">
                         <img src={Logo} height="20px"></img>
                     </Link>
-                        
                     </a>
                 </li>
-                <li className='nav-item me-3'>
-                    <Link to="/" className='nav-link active'>
+                <li className='nav-item m-3'>
+                <Link to="/" className='nav-link active'>
                         <FaHome/>
                     </Link>
-                   
                 </li>
             </ul>
             <form className="d-flex input-group" role="search">
@@ -52,11 +49,11 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-         </div>
+        </div>
+     
+        
     </nav>
   )
 }
 
-
-
-export default Navbar;
+export default Navbar

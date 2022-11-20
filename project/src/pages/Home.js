@@ -5,8 +5,9 @@ import Navbar from '../component/Navbar'
 function Home() {
   return (
     <>
-    <Navbar/>
-    <CopyWriting/>
+      <CopyWriting/>
+  
+    
     </>
   )
 }

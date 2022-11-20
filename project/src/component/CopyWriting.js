@@ -1,6 +1,9 @@
 import React from 'react'
 import Showcase2 from "../images/Showcase2.png";
-import {Link} from "react-router-dom"
+
+
+
+
 
 function CopyWriting() {
   return (
@@ -15,10 +18,10 @@ function CopyWriting() {
                     <div className='container'>
             
                             <button className='btn btn-primary btn-lg margin-left me-3 '>
-                              <Link to="/loginform" className="nav-link active">Sign In</Link>
+                              {/* <Link to="/loginform" className="nav-link active">Sign In</Link> */}
                             </button>
                             <button className='btn btn-primary btn-lg margin-right'>
-                              <Link to="/loginform" className="nav-link active">Log In</Link>
+                              {/* <Link to="/loginform" className="nav-link active">Log In</Link> */}
 
                             </button>
                     </div>
