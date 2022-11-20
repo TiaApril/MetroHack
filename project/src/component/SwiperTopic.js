@@ -25,6 +25,7 @@ function SwiperTopic() {
     <>
     
     <section className='p-5'>
+      <h3 className='text-center'>Hot Topics</h3>
       <div className='container'>
         <div className='row g-lg-5'>
         <Swiper
@@ -45,6 +46,7 @@ function SwiperTopic() {
         </div>
         <SwiperSlide>
         <div className='col-md'>
+            
             <div className='post-container'>
                 <div className='user-profile'>
                   <img src={Man1}></img>

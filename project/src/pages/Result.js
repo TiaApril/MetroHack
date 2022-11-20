@@ -2,8 +2,11 @@ import React from 'react'
 import AnswerButton from '../resultcomp/AnswerButton'
 import AnswerPost from '../resultcomp/AnswerPost'
 import HotTopicSide from '../resultcomp/HotTopicSide'
+import Order from '../resultcomp/Order'
 import Question from '../resultcomp/Question'
 import RelatedTopics from '../resultcomp/RelatedTopics'
+
+
 
 
 
@@ -19,6 +22,7 @@ function Result() {
                             <div className="container me-5 p-2 w-100 bd-highlight">
                                <Question/>
                                <AnswerButton/>
+                               <Order/>
                                <AnswerPost/>
                                <RelatedTopics/>
                             </div>

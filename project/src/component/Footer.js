@@ -4,9 +4,9 @@ import {FaFacebookSquare, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube} from 
 
 function Footer() {
     return (
-      <footer class="py-5 bg-dark">
-        <div class="row">
-          <div class="col-2 offset-md-2 mb-3 ">
+      <footer class="py-1 bg-dark">
+        <div class="row p-2">
+          <div class="col-2 offset-md-2 mb-3">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">

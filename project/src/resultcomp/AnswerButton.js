@@ -25,11 +25,15 @@ function AnswerButton() {
                     <Card.Body id="example-collapse-text">
                     <InputGroup className="mb-3">
                     <Form.Control
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
+                      placeholder="Give your answer here"
+                      
                       aria-describedby="basic-addon2"
                     />
-                    <InputGroup.Text id="basic-addon2">Submit</InputGroup.Text>
+                    <InputGroup.Text id="basic-addon2">
+                    <Button variant="outline-secondary" id="button-addon2">
+                      Submit
+                    </Button>
+                    </InputGroup.Text>
                     </InputGroup>
                     </Card.Body>
                   </Collapse>
