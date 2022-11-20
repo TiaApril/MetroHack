@@ -1,4 +1,6 @@
 import React from 'react'
+import AnswerButton from '../resultcomp/AnswerButton'
+import Question from '../resultcomp/Question'
 
 
 
@@ -12,7 +14,8 @@ function Result() {
                     <div className='col-md-auto'>
                         <div className="container d-flex bd-highlight">
                             <div className="container me-5 p-2 w-100 bd-highlight">
-                               
+                               <Question/>
+                               <AnswerButton/>
                             </div>
                         </div>
                     </div>
